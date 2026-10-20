@@ -1,0 +1,4 @@
+[
+  { "slug": "smartphones", "name": "Smartphones", "shortName": "Phones", "description": "Phones on deposit + daily payments", "icon": "smartphone" },
+  { "slug": "tablets", "name": "Tablets", "shortName": "Tablets", "description": "Tablets on deposit + daily payments", "icon": "tablet" }
+]

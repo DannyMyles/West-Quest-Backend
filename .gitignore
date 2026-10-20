@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+
+# env files — secrets stay local; .env.example is the template
+.env*
+!.env*.example
+
+# logs / OS
+npm-debug.log*
+*.log
+.DS_Store

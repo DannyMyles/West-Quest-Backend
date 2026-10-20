@@ -1,0 +1,33 @@
+{
+  "name": "west-quest-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js + MariaDB backend for West Quest Limited (financing applications, products, categories, images, auth).",
+  "type": "module",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --watch --env-file-if-exists=.env src/server.js",
+    "migrate": "node --env-file-if-exists=.env scripts/migrate.js",
+    "create-admin": "node --env-file-if-exists=.env scripts/create-admin.js",
+    "import-catalog": "node --env-file-if-exists=.env scripts/import-catalog.js",
+    "import-ppk": "node --env-file-if-exists=.env scripts/import-ppk.js",
+    "import-images": "node --env-file-if-exists=.env scripts/import-images.js",
+    "fix-brands": "node --env-file-if-exists=.env scripts/fix-brands.js",
+    "test": "node --test --test-concurrency=1 \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "multer": "^2.4.0",
+    "mysql2": "^3.24.4",
+    "nodemailer": "^10.0.10",
+    "zod": "^4.6.5"
+  }
+}

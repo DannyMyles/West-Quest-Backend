@@ -1,0 +1,7 @@
+[
+  { "slug": "audio", "name": "Audio", "shortName": "Audio", "description": "Headphones, earbuds, speakers and soundbars", "icon": "speaker" },
+  { "slug": "gaming", "name": "Gaming", "shortName": "Gaming", "description": "Consoles, controllers and gaming accessories", "icon": "gamepad" },
+  { "slug": "cameras", "name": "Cameras", "shortName": "Cameras", "description": "Cameras, drones and photography accessories", "icon": "camera" },
+  { "slug": "storage", "name": "Storage", "shortName": "Storage", "description": "SSDs, memory cards and portable drives", "icon": "hard-drive" },
+  { "slug": "laptops", "name": "Laptops", "shortName": "Laptops", "description": "Laptops and desktops", "icon": "laptop" }
+]
